@@ -66,3 +66,28 @@ index d3aa693..6b49a50 100644
 `` `
 +## Github
 ```
+
+### log
+show the commit log
+
+```
+PS C:\ProjectSpace\Git> git log
+commit be7f8a2702957a504e366a76b7a8bf55769b14be
+Author: MarvelSQ <sunqiang1993hlj@hotmail.com>
+Date:   Thu Jul 20 20:56:27 2017 +0800
+ 
+    change Description&Use's name to README
+ 
+commit 9551bfebbd196cfd74dab659ebe0118ec90b838c
+Author: MarvelSQ <sunqiang1993hlj@hotmail.com>
+Date:   Thu Jul 20 20:53:35 2017 +0800
+```
+#### params:
+**--pretty=oneline**:simplfy the log message
+```
+PS C:\ProjectSpace\Git> git log --pretty=oneline
+be7f8a2702957a504e366a76b7a8bf55769b14be change Description&Use's name to README
+9551bfebbd196cfd74dab659ebe0118ec90b838c add Description&Use
+ad91329ef51d8619583501d9c3a1c49a2a48b777 add README content
+0f658aba4aa6ad22b871779729fdd45cc9f2ba30 first commit
+```
