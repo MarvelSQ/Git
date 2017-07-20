@@ -29,4 +29,4 @@ use this to combine the branch you choose to current branch.
 *****
 there may have some conflict happened in different branch, then when they are merging, something happened.
 
-master add!
+master & test1 add!
