@@ -15,3 +15,10 @@ before commit, the modified file or new file will be add to index, after commit 
 ```
 test
 ```
+
+### reset
+
+#### params
+
+```
+```
