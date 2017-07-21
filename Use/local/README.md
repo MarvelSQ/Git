@@ -22,3 +22,6 @@ test
 
 ```
 ```
+
+### stash
+you can store your current repo,

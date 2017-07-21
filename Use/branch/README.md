@@ -26,6 +26,13 @@ PS C:\ProjectSpace\Git> git branch
 ### merge
 use this to combine the branch you choose to current branch.
 
+#### params
+**--no-ff**:
+there is Fast forward Mode. in this mode, you can quickly merge branch, but you will lose the branch infomation.
+
+use **--no-ff** can force close the Fast forward. and create a new commit, so you need add **-m** to cmd.
+
+
 *****
 ## Conflict
 there may have some conflict happened in different branch, then when they are merging, something happened.
@@ -136,3 +143,6 @@ PS C:\ProjectSpace\Git> git log --graph
 ```
 
 **this is a conflict**
+
+***
+## bug branch
