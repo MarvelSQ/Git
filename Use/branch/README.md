@@ -32,6 +32,15 @@ there is Fast forward Mode. in this mode, you can quickly merge branch, but you 
 
 use **--no-ff** can force close the Fast forward. and create a new commit, so you need add **-m** to cmd.
 
+### rebase
+***do not rebase commits you have pushed***
+
+restore your current brancd's commits and switch to the branch you choosed then add those commits
+
+**--abort**:abort the rebase
+
+**--continue**:continue rebase after solve conflict
+
 
 *****
 ## Conflict
